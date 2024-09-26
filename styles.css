@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Bodoni:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0; 
+    position: absolute;
+    z-index: 1000; 
+    width: 100%; 
+    background-color: #ffffff00 ;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    font-family: "Inter", sans-serif;
+    list-style: none;
+    gap: 50px;
+    
+}
+h4{
+    font-family: "Libre Bodoni", serif;
+    width: 100%;
+    text-align: center;
+}
+.nav1{
+    display: flex;
+    justify-content: left;
+    padding-left: 15px;
+    width: 100%;
+}
+.nav2{
+    display: flex ;
+    justify-content: right; 
+    padding-right: 15px;
+    width: 100%;
+}
+
+
+
+.lba9i{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.lba9i img{
+    width: 100%;
+    position: absolute;
+}
+
+
+
+
+.text-container{
+    position: relative;
+    z-index: 1;
+    padding: 150px;
+    margin: 40px;
+}
+.text-container h1{
+    color: white;
+    font-family: "Libre bodoni", serif;
+    font-size: 90px;
+    font-weight: 100;
+}
+
+
+
+.botonat{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.botonat button{
+    font-family: "Inter", sans-serif;
+    font-size: large;
+    font-weight: 350;
+    padding: 5px;  
+    border-radius: 50px;  
+    border-color: #fff;
+    border-width: 1.5px;
+    padding-left: 15px;
+}
+.btn1{
+    position: absolute;
+    text-align: left;
+    width: 30%;
+    background: #ffffff00;
+    color: #fff;
+}
+.sahm{
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    width: 20%;
+    left: 25px;
+    padding: 12px 5px;
+    position: relative;
+    text-align: center;
+    border-radius: 80rem;
+}
+
+
+
+.lawn-brk{
+    position: relative;
+    top: 255px;
+    background-color: #412a2a;
+    height: 100px;
+    width: 100%;
+}
+
+
+
+.lba9i1-2{
+    position: relative;
+    top: 257px;
+    height: 30vh;
+    background-color: rgb(255, 247, 238);
+    padding-top: 40px;
+}
+.some-text{
+    font-family: "Libre bodoni", serif;
+    font-size: 50px;
+    padding: 40px;
+    background-color: rgb(255, 247, 238);
+    
+}
+.some-text2{
+    font-family: "Inter", sans-serif;
+    background-color: rgb(255, 247, 238);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+}
+hr{
+    margin: -10px 40px;
+}    
+
+
+
+.lba9i2-2{
+    position: relative;
+    height: 100vh;
+    top: 300px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: rgb(255, 247, 238);
+    padding-top: 50px;
+}
+.lba9i2-2 img{
+    width: 472px;
+    height: 80vh;
+}
+.post2{
+    margin-top: 70px;
+}
+
+
+
+.cookies{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+.lwl{
+    font-family: "Inter", sans-serif;
+    font-size: larger;
+    font-weight: 300;
+}
+.dzim{
+    font-family: "Libre bodoni", serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+}
+.price{
+    font-family: "Inter", sans-serif;
+}
+
+

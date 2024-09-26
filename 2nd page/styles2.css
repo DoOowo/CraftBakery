@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Bodoni:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0; 
+    width: 100%; 
+    background-color: rgb(255, 247, 238) ;
+    color: black;
+}
+.about{
+    text-decoration: underline;
+}
+ul{
+    font-family: "Inter", sans-serif;
+    list-style: none;
+    gap: 50px;
+}
+h4{
+    font-family: "Libre Bodoni", serif;
+    width: 100%;
+    text-align: center;
+}
+.nav1{
+    display: flex;
+    justify-content: left;
+    padding-left: 15px;
+    width: 100%;
+}
+.nav2{
+    display: flex ;
+    justify-content: right; 
+    padding-right: 15px;
+    width: 100%;
+}
+
+
+
+
+.cha-ndiro{
+    background-color: rgb(255, 247, 238);
+    height: 100vh;
+    display: flex;
+}
+.cha-ndiro img{
+    width: 100%;
+    height: 650px;
+}
+.img{
+    width: 50%;
+    height: 80vh;
+}
+
+
+
+
+
+.cookiz{
+    text-align: center;
+    height: 100vh;
+    width: 50%;
+    padding: 40px;
+}
+h1{
+    font-size: 70px;
+    font-family: "Libre bodoni", serif;
+    font-weight: 100;
+}
+.cookiz img{
+    height: 300px;
+    width: 30%;
+    padding: 20px;
+}
+.img2{
+    height: 30vh;
+    max-width: 100%;
+}
+
+
+
+
+.chkon-hado{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin: 160px 0px;
+}
+
+
+
+
+
+
+.chkon-7na{
+    background-color: rgb(255, 247, 238);
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+}
+.story{
+    font-family: "Inter", sans-serif;
+}
+.prgrf{
+    font-family: "Libre bodoni", serif;
+    font-size: 45px;
+}
+
+
+.ing{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.ing img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.genuine{
+    position: relative;
+    width: 35%;
+    height: 55%;
+    background-color: rgb(255, 247, 238);
+    text-align: center;
+    padding: 60px;
+    margin: 200px;
+}
+.genuine h1{
+    font-family: "Libre bodoni", serif;
+}
+.genuine p{
+    font-family: "Inter", sans-serif;
+    padding: 40px;
+    font-size: small;
+}
